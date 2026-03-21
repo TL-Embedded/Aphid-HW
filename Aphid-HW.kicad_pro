@@ -475,11 +475,14 @@
       "U_Memory",
       "U_Driver",
       "DS_LED",
-      "M_Mechanical"
+      "M_Mechanical",
+      "U_Logic",
+      "U_Analog",
+      "U_Interface"
     ]
   },
   "meta": {
-    "filename": "XLink-HW.kicad_pro",
+    "filename": "Aphid-HW.kicad_pro",
     "version": 3
   },
   "net_settings": {

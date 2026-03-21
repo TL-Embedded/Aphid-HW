@@ -14205,7 +14205,7 @@
 		(layer "Edge.Cuts")
 		(uuid "e0992dfc-9036-4b91-85e7-77415467d013")
 	)
-	(gr_text "X-Link\nv1.0\nFeb 26"
+	(gr_text "Aphid\nv1.1\nFeb 26"
 		(at 73.8 88.7 0)
 		(layer "F.SilkS")
 		(uuid "095e3776-77e9-413c-8105-fe3d625b5ee4")
