@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Aphid")
-		(date "2026-03-21")
+		(date "2026-03-23")
 		(rev "v1.1")
 		(company "TL Embedded")
 	)
@@ -2244,7 +2244,7 @@
 	)
 	(text_box "DIR high = A -> B\nDIR low  = B -> A"
 		(exclude_from_sim no)
-		(at 67.31 180.34 0)
+		(at 67.31 181.61 0)
 		(size 22.86 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2335,6 +2335,12 @@
 		(uuid "625d7b78-68b5-4730-888b-f982ac30adff")
 	)
 	(junction
+		(at 63.5 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65c59bab-9752-4f07-9c20-8c057dd0a63f")
+	)
+	(junction
 		(at 66.04 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2345,6 +2351,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c41106a-3aee-40f4-bd50-ac7afa2e5dbb")
+	)
+	(junction
+		(at 66.04 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "828fab29-c70e-45cc-ad32-d253e9a5953d")
 	)
 	(junction
 		(at 109.22 53.34)
@@ -2389,10 +2401,22 @@
 		(uuid "ceac5f73-5068-476d-9ab4-7575419e28a5")
 	)
 	(junction
+		(at 63.5 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef4aeb27-8d3a-4ec2-b67d-ba3b0f4a8004")
+	)
+	(junction
 		(at 91.44 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f86bcb01-1517-4e20-9613-7f1460823d15")
+	)
+	(junction
+		(at 91.44 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faccfcd5-249b-457c-9c90-8ff1c1c1b473")
 	)
 	(junction
 		(at 193.04 54.61)
@@ -2417,6 +2441,16 @@
 			(type default)
 		)
 		(uuid "00b79b11-e259-440b-8595-7cd5e18a3643")
+	)
+	(wire
+		(pts
+			(xy 91.44 144.78) (xy 91.44 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01153562-b65a-4665-afb6-95b29901cea6")
 	)
 	(wire
 		(pts
@@ -2680,6 +2714,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 162.56) (xy 63.5 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38fb85f2-9106-4ba7-a0db-aa2ef3033e00")
+	)
+	(wire
+		(pts
 			(xy 138.43 133.35) (xy 138.43 132.08)
 		)
 		(stroke
@@ -2787,6 +2831,16 @@
 			(type default)
 		)
 		(uuid "4e09e486-568b-44d9-b2d4-6f3e5ce7dd18")
+	)
+	(wire
+		(pts
+			(xy 63.5 161.29) (xy 63.5 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef29560-32ad-499b-8da9-5ce8e5785eea")
 	)
 	(wire
 		(pts
@@ -2900,6 +2954,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 162.56) (xy 63.5 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d34d18-31c6-460a-aa0f-a1ea441726cf")
+	)
+	(wire
+		(pts
 			(xy 168.91 44.45) (xy 180.34 44.45)
 		)
 		(stroke
@@ -3010,6 +3074,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 162.56) (xy 91.44 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da57587-3d2f-4364-805f-1a03516d04f0")
+	)
+	(wire
+		(pts
 			(xy 213.36 134.62) (xy 213.36 121.92)
 		)
 		(stroke
@@ -3087,6 +3161,16 @@
 			(type default)
 		)
 		(uuid "96d6a925-2b74-44eb-9e1c-06987cba7a24")
+	)
+	(wire
+		(pts
+			(xy 91.44 161.29) (xy 91.44 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99911d26-5690-4c1c-b623-5046935a2684")
 	)
 	(wire
 		(pts
@@ -3320,7 +3404,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 149.86) (xy 66.04 153.67)
+			(xy 66.04 149.86) (xy 66.04 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3417,6 +3501,16 @@
 			(type default)
 		)
 		(uuid "e6eaab71-0760-4efd-bd66-6ed33aab1eb8")
+	)
+	(wire
+		(pts
+			(xy 63.5 144.78) (xy 63.5 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efadfcde-0cd7-4e67-9a69-4b966f56d50a")
 	)
 	(wire
 		(pts
@@ -3787,7 +3881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02767664-2241-4c7d-86f9-9a1026a1dc45")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 77.47 118.11 0)
 			(effects
 				(font
@@ -3851,7 +3945,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3867,7 +3961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04ebef56-f5dc-42c3-88cb-535ef2ea6967")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR032"
 			(at 240.03 38.1 0)
 			(effects
 				(font
@@ -3917,7 +4011,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "#PWR022")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3933,7 +4027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "093d5826-3884-4c83-a6d6-ec9f620688d5")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR027"
 			(at 114.3 95.25 0)
 			(effects
 				(font
@@ -3984,7 +4078,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "#PWR031")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4000,7 +4094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "114bbf0b-9db7-427f-9848-4f6c522033fb")
-		(property "Reference" "C22"
+		(property "Reference" "C20"
 			(at 111.76 46.3612 0)
 			(effects
 				(font
@@ -4063,7 +4157,7 @@
 		(instances
 			(project ""
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "C22")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4079,7 +4173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "117693ab-d582-4869-9411-f7e006dc6ccf")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 104.14 113.03 0)
 			(effects
 				(font
@@ -4130,7 +4224,86 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "#PWR030")
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C_Capacitor:C_0603")
+		(at 91.44 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a922356-9a00-42d6-a0ed-6ccbe5268eec")
+		(property "Reference" "C22"
+			(at 88.9 156.8512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 88.9 159.3912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_0603"
+			(at 94.615 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_0603"
+			(at 88.9 161.2963 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "032dc2cf-2524-4be1-94ae-5eff1c3d2f21")
+		)
+		(pin "2"
+			(uuid "baced9c3-e1a6-4d06-b85c-812da61981f7")
+		)
+		(instances
+			(project "Aphid-HW"
+				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4146,7 +4319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "237a877d-d0ef-4c9b-8dc1-df6b349ed11e")
-		(property "Reference" "U6"
+		(property "Reference" "U10"
 			(at 90.17 25.4 0)
 			(effects
 				(font
@@ -4207,7 +4380,7 @@
 		(instances
 			(project ""
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "U6")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -4296,7 +4469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f07925b-7322-4343-9895-4e76a815b177")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 77.47 100.33 0)
 			(effects
 				(font
@@ -4360,7 +4533,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4376,7 +4549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "347fe172-1907-46ea-8053-fac68e3196dd")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -4426,7 +4599,7 @@
 		(instances
 			(project "XLink-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4442,7 +4615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b031ba0-459f-4fdb-bb97-d01038c4ad76")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 140.97 118.7449 0)
 			(effects
 				(font
@@ -4505,7 +4678,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "R15")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4521,7 +4694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3daa02a0-7b15-4a05-918d-30e36c10d3fe")
-		(property "Reference" "C20"
+		(property "Reference" "C19"
 			(at 67.31 46.3612 0)
 			(effects
 				(font
@@ -4584,7 +4757,7 @@
 		(instances
 			(project "XLink-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "C20")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4600,7 +4773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fbb91c6-1be2-4111-973c-58d022388e72")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR022"
 			(at 63.5 90.17 0)
 			(effects
 				(font
@@ -4650,7 +4823,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "#PWR029")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4666,7 +4839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f747251-653c-4bd7-a981-e66bf1eb4647")
-		(property "Reference" "DS2"
+		(property "Reference" "DS1"
 			(at 123.19 46.0374 90)
 			(effects
 				(font
@@ -4729,7 +4902,7 @@
 		(instances
 			(project ""
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "DS2")
+					(reference "DS1")
 					(unit 1)
 				)
 			)
@@ -4821,7 +4994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5098c972-8856-4358-aafb-2c19eca9d513")
-		(property "Reference" "R9"
+		(property "Reference" "R13"
 			(at 177.8 47.6249 0)
 			(effects
 				(font
@@ -4884,7 +5057,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "R9")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4899,7 +5072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54969d36-1f49-45a2-9304-936d50a181ca")
-		(property "Reference" "U5"
+		(property "Reference" "U11"
 			(at 240.03 58.42 0)
 			(effects
 				(font
@@ -4960,7 +5133,7 @@
 		(instances
 			(project ""
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "U5")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -4976,7 +5149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54ead48b-bfdd-4999-bc89-983c2b569d4d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR031"
 			(at 213.36 140.97 0)
 			(effects
 				(font
@@ -5026,7 +5199,7 @@
 		(instances
 			(project ""
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "#PWR026")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5042,7 +5215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "558a0d13-4a28-4fb4-a797-bbd4f9b13e25")
-		(property "Reference" "Q4"
+		(property "Reference" "Q2"
 			(at 259.08 43.1799 0)
 			(effects
 				(font
@@ -5099,7 +5272,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "Q4")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5260,7 +5433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e3cd45e-3ef0-4f92-a2fb-c2bbef994d8b")
-		(property "Reference" "R16"
+		(property "Reference" "R9"
 			(at 52.07 134.62 90)
 			(effects
 				(font
@@ -5320,7 +5493,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "R16")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5419,72 +5592,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 66.04 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "843e92cf-065c-47da-ade3-28d8711576bc")
-		(property "Reference" "#PWR034"
-			(at 66.04 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "439b86ae-4296-4592-8d69-48eae60df44d")
-		)
-		(instances
-			(project "Aphid-HW"
-				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "U_Logic:74LVC1T45DW-7")
 		(at 77.47 152.4 0)
 		(unit 1)
@@ -5494,7 +5601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fe939ce-d76b-42ba-a201-b2dc06fe26a2")
-		(property "Reference" "U10"
+		(property "Reference" "U9"
 			(at 77.47 137.16 0)
 			(effects
 				(font
@@ -5558,7 +5665,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "U10")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -5574,7 +5681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a601090b-7110-4001-b661-a9a6e88f4eb5")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR021"
 			(at 55.88 29.21 0)
 			(effects
 				(font
@@ -5624,7 +5731,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "#PWR025")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5640,7 +5747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8b679c4-5a96-4469-8485-dd22e5613e99")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 138.43 139.7 0)
 			(effects
 				(font
@@ -5690,7 +5797,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5706,7 +5813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2e62abb-8833-4df8-a644-4ef4772fc53b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 193.04 62.23 0)
 			(effects
 				(font
@@ -5756,7 +5863,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5771,7 +5878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9d3dae1-876a-47ba-a751-968556d0bd84")
-		(property "Reference" "U11"
+		(property "Reference" "U5"
 			(at 45.72 41.91 0)
 			(effects
 				(font
@@ -5832,7 +5939,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "U11")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5848,7 +5955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb00a983-a052-4c1a-b0cc-01018a4731df")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 69.85 34.29 0)
 			(effects
 				(font
@@ -5898,7 +6005,73 @@
 		(instances
 			(project ""
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "#PWR023")
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb458a87-01b2-4843-86b2-1e69addea136")
+		(property "Reference" "#PWR034"
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d4384b2-6d95-4bf1-865c-b717df889cd0")
+		)
+		(instances
+			(project "Aphid-HW"
+				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -5914,7 +6087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d494c21c-d331-4d6b-b180-568733f7f1fb")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -5978,7 +6151,7 @@
 		(instances
 			(project ""
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6073,7 +6246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dba47546-b56a-4a4e-b4ee-226f03bfee7e")
-		(property "Reference" "DS3"
+		(property "Reference" "DS2"
 			(at 142.24 127.3174 90)
 			(effects
 				(font
@@ -6136,7 +6309,7 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "DS3")
+					(reference "DS2")
 					(unit 1)
 				)
 			)
@@ -6152,7 +6325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7228f32-97d4-409b-8e32-40dac10304c5")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR026"
 			(at 102.87 130.81 0)
 			(effects
 				(font
@@ -6203,7 +6376,86 @@
 		(instances
 			(project "Aphid-HW"
 				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
-					(reference "#PWR021")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C_Capacitor:C_0603")
+		(at 63.5 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9040384-c33a-409e-8f7a-b6b8069f67db")
+		(property "Reference" "C21"
+			(at 60.96 156.8512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 60.96 159.3912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_0603"
+			(at 66.675 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_0603"
+			(at 60.96 161.2963 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "447b350f-ba09-4ea1-a3a7-97d769480ac4")
+		)
+		(pin "2"
+			(uuid "7092dca4-8fe6-4c05-bc3c-3f971a4be4b2")
+		)
+		(instances
+			(project "Aphid-HW"
+				(path "/023254f9-35e2-408c-9a7c-a91daeda5756/4c877ca3-9684-45f4-a1d5-9e52363bd713"
+					(reference "C21")
 					(unit 1)
 				)
 			)
